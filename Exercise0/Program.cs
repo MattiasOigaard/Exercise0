@@ -6,13 +6,13 @@ namespace Exercise0
     {
         static void Main(string[] args)
         {
-            var keepAlive = true;   
+            bool keepAlive = true; 
             while (keepAlive)
             {
                 try
                 {
                     Console.Write("Enter assignement number (or -1 to exit):");
-                    var assignementChoice = int.Parse(Console.ReadLine() ?? "");
+                    int assignementChoice = int.Parse(Console.ReadLine() ?? "");
                     Console.ForegroundColor = ConsoleColor.Green;
                     switch (assignementChoice)
                     {
