@@ -59,7 +59,8 @@ namespace Exercise0
         private static void RunExerciseTwo()
         {
             DateTime timenow = DateTime.Now;
-            Console.WriteLine("Todays date is " + timenow);
+            string format = "MMM ddd d HH:mm yyyy";
+            Console.WriteLine(timenow.ToString(format));
         }
     }
 }
