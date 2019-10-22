@@ -50,6 +50,10 @@ namespace Exercise0
         }
         private static void RunExerciseOne()
         {
+            Console.WriteLine("First Name:");
+            String FirstName = Console.ReadLine();
+            Console.WriteLine("Surname:");
+            String Surname = Console.ReadLine();
             Console.WriteLine("You succesfully completed exercise one");
         }
         private static void RunExerciseTwo()
