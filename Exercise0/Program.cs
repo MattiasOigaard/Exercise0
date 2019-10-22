@@ -58,7 +58,8 @@ namespace Exercise0
         }
         private static void RunExerciseTwo()
         {
-            Console.WriteLine("You succesfully completed exercise two");
+            DateTime timenow = DateTime.Now;
+            Console.WriteLine("Todays date is " + timenow);
         }
     }
 }
