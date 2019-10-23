@@ -58,9 +58,13 @@ namespace Exercise0
         }
         private static void RunExerciseTwo()
         {
-            DateTime timenow = DateTime.Now;
-            string format = "MMM ddd d HH:mm yyyy";
-            Console.WriteLine(timenow.ToString(format));
+            string todaysdate = DateTime.Now.ToString("yyyy/MM/dd");
+            string tomorrwsdate = DateTime.Now.AddDays(1).ToString("yyyy/MM/dd");
+            string yesterdaysdate = DateTime.Now.AddDays(-1).ToString("yyyy/MM/dd");
+            Console.WriteLine("Todays date is" + " " + todaysdate);
+            Console.WriteLine("Tomorrows date is" + " " + tomorrwsdate);
+            Console.WriteLine("Yesterdays date was" + " " + yesterdaysdate);
+
         }
     }
 }
